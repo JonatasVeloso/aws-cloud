@@ -41,7 +41,7 @@ public class S3Service {
 
         ListObjectsV2Request request = ListObjectsV2Request.builder()
                 .bucket(BUCKET)
-                .prefix("Java Class/")
+                .prefix("pasta_teste/")
                 .build();
 
         ListObjectsV2Response response =
